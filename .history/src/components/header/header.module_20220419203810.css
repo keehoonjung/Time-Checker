@@ -1,0 +1,25 @@
+@value makerBlack, makerWhite, makerLightGrey from '../../common/color.css';
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  background-color: makerLightGrey;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.button {
+  position: absolute;
+  color: white;
+  right: 1rem;
+  background-color: brown;
+  padding: 0.4rem;
+  font-weight: bold;
+  border-radius: 4px;
+}

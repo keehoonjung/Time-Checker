@@ -1,0 +1,16 @@
+.container {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+.input {
+  height: 2.5rem;
+  width: 60%;
+}

@@ -1,0 +1,22 @@
+@value makerBlue, makerGrey from '../../common/color.css';
+
+.container {
+  display: flex;
+  height: 5%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.button {
+  font-size: 1.8rem;
+  color: makerGrey;
+}
+
+.button.activity {
+  color: makerBlue;
+}
+
+.button:hover {
+  color: makerBlue;
+}

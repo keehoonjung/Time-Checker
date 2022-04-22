@@ -1,0 +1,22 @@
+.container {
+  background-color: white;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.button_container {
+  margin-top: 3rem;
+}
+
+.button {
+  width: 900%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.button:hover {
+  transform: scale(1.02);
+}

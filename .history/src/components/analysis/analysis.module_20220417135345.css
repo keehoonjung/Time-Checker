@@ -1,0 +1,19 @@
+.container {
+  height: 85%;
+  background-color: brown;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.graph_container {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.innercircle {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}

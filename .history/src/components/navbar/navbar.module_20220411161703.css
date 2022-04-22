@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  height: 5%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  font-size: 2rem;
+  color: brown;
+}

@@ -1,0 +1,19 @@
+@value makerRed, makerLightGrey from '../../common/color.css';
+
+.container {
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: makerLightGrey;
+}
+
+.time {
+  margin-bottom: 0.5rem;
+}
+
+.stop_button {
+  font-size: 2.5rem;
+  color: makerRed;
+}

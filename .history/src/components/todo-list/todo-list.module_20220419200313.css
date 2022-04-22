@@ -1,0 +1,8 @@
+@value makerBlack, makerWhite, makerGreen from '../../common/color.css';
+
+.container {
+  height: 70%;
+  background-color: #makerWhite;
+  padding: 1rem;
+  overflow-y: auto;
+}

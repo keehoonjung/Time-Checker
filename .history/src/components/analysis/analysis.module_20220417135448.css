@@ -1,0 +1,28 @@
+.container {
+  height: 85%;
+  background-color: brown;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.graph_container {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.outcircle {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innercircle {
+  width: 150px;
+  height: 150px;
+  background-color: aqua;
+  border-radius: 50%;
+}

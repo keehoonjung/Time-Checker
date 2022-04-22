@@ -1,0 +1,8 @@
+@value makerBlack, makerWhite, makerGreen from '../../common/color.css';
+
+.container {
+  background-color: makerWhite;
+  max-width: 1200px;
+  width: 100%;
+  height: 80%;
+}

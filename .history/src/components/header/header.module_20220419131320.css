@@ -1,0 +1,12 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+}
+
+.button {
+  position: absolute;
+  right: 1rem;
+}

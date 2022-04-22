@@ -1,0 +1,20 @@
+.container {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+.input {
+  height: 2.5rem;
+  width: 100%;
+}
+
+.button {
+  font-size: 3rem;
+}

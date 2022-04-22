@@ -1,0 +1,13 @@
+.container {
+  background-color: aqua;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.button {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 8px;
+}

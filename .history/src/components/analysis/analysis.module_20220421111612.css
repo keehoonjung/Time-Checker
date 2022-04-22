@@ -1,0 +1,65 @@
+@value makerWhite,makerBlue, makerLightGrey from '../../common/color.css';
+
+.container {
+  position: relative;
+  height: 84%;
+  background-color: makerWhite;
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  border: 1px solid makerLightGrey;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+}
+
+.button__container {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid makerLightGrey;
+}
+
+.button.activity {
+  background-color: makerBlue;
+  color: makerWhite;
+}
+
+.button:hover {
+  background-color: makerBlue;
+  color: makerWhite;
+}
+
+.total_time__container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.total_time {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.total_time__title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.graph {
+  text-align: center;
+}
+
+.graph__title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.calendar_container {
+  position: absolute;
+  top: 5rem;
+}

@@ -1,0 +1,10 @@
+.container {
+  background-color: aqua;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.button {
+}

@@ -1,0 +1,7 @@
+@value makerWhite, makerLightGrey from '../../common/color.css';
+
+.container {
+  max-width: 1200px;
+  height: 100%;
+  width: 100%;
+}

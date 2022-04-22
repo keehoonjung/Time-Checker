@@ -1,0 +1,12 @@
+.container {
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+}
+
+.time {
+  margin-bottom: 0.5rem;
+}

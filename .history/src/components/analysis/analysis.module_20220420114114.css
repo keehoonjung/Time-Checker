@@ -1,0 +1,37 @@
+@value makerWhite,makerBlue, makerLightGrey from '../../common/color.css';
+
+.container {
+  height: 84%;
+  background-color: makerWhite;
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  border: 1px solid makerLightGrey;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+}
+
+.button.activicty {
+  background-color: makerBlue;
+}
+
+.button:hover {
+  background-color: makerBlue;
+  color: makerWhite;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.graph {
+  width: 200px;
+  height: 200px;
+}
